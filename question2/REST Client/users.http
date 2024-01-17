@@ -1,0 +1,13 @@
+@baseUrl = http://localhost:3000
+
+### Read all users
+GET {{baseUrl}}/users
+
+### Creation a users
+POST {{baseUrl}}/users
+Content-Type: application/json
+
+{
+    "userName": "hehehehe",
+    "mail": "jeuis@sdfghiusdgiufgidsuguihdgsiuudsghuds"
+}

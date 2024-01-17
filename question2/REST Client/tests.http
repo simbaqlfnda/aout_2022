@@ -1,0 +1,16 @@
+@baseUrl = http://localhost:3000
+
+
+#### Creation vacance
+POST {{baseUrl}}/vacances
+Content-Type: application/json
+
+{
+    "nomLieu":"New York",
+    "description":"En pleine hivers" 
+}
+
+
+### Create a user
+
+### Like a place
